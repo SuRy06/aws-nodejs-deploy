@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // Router Section
 app.use("/api/v1/", (req, res) => {
-  res.send({ message: "Deploy of Node Js Project!" });
+  res.send({ message: "Deploy of Node Js Project ok!" });
 });
 app.use("/api/v1/user", userRouter);
 
