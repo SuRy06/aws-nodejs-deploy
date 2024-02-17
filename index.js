@@ -20,7 +20,7 @@ app.use("/api/v1/user", userRouter);
 // DB Connection
 dbCon();
 //server section.
-const port = process.env.port || 3000;
+const port = process.env.port || 8000;
 app.listen(port, () => {
   console.log(`App is running on port ${port}...`);
 });
